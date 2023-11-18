@@ -1,0 +1,32 @@
+<html>
+<head>
+<style>
+body{
+    background-image: url('employee_att.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+}
+</style>
+</head>
+<body>
+    
+    <h1>CREDIT CARD FRAUD DETECTION</h1>
+    
+    <form method="post" action="/predict">
+        <label for="Amount">Amount</label>
+        <input type="number" id="Amount" name="Amount" placeholder="Amount" required="required"><br><br>
+        <label for="Category">Category</label>
+        <input type="number" id="Category" name="Category" placeholder="Category" required="required"><br><br>
+        <label for="Merchant">Merchant</label>
+        <input type="number" id="Merchant" name="Merchant" placeholder="Merchant" required="required"><br><br>
+        <label for="Age">Age</label>
+        <input type="number" id="Age" name="Age" placeholder="Age" required="required"><br><br>
+        <label for="city_pop">City population</label>
+        <input type="number" id="city_pop" name="city_pop" placeholder="City population" required="required"><br><br>
+        
+    
+        <button>Submit</button>
+    </form>
+</body>
+</html>
